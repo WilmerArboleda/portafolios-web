@@ -3888,7 +3888,7 @@ input, select, textarea {
 
 			@media screen and (max-width: 369px) {
 				#sidebar{
-					display: flex;
+					display: none;
 				}
 		}
 	}
