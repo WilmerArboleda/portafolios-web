@@ -3864,20 +3864,34 @@ input, select, textarea {
 
 		}
 
+		/*Modifico version movil para mostrar la cabecera.. y se usa display none en resolucion menor a 369px*/
+
 		@media screen and (max-width: 736px) {
 			#sidebar{
-				display: none;
+				height: auto;
 			}
-		
-		 /* #sidebar a{
-				width: 55px;
-				text-align: center;
-				align-items: center;
-				align-content: center;
-			} 
 
-			 lo que movi yo*/
+			#sidebar div nav ul{
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+
+			#sidebar div nav ul li{
+				margin: 0px 10px 1px 10px;
+			}
+
+			#sidebar div nav ul li a{
+				height: 37px;
+
+			}
+
+			@media screen and (max-width: 369px) {
+				#sidebar{
+					display: none;
+				}
 		}
+	}
 
 /* Intro */
 
