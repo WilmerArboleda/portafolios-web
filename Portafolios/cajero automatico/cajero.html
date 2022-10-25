@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cajero electronico</title>
+</head>
+<body>
+    <p>
+        <h1>Primero Debes Llenar El Cajeo</h1>
+        <form action="">
+        <input type="number"  placeholder="Cuantos Billetes De $100 M" id="b_100" required/> </br>
+        <input type="number"  placeholder="Cuantos Billetes De $50 M" id="b_50" required/> </br>
+        <input type="number"  placeholder="Cuantos Billetes De $20 M" id="b_20" required/> </br>
+        <input type="number"  placeholder="Cuantos Billetes De $10 M" id="b_10" required/> </br>
+        <input type="submit" valor="Cargar Cajero" id="boton"> <br>
+        </form>
+    
+    </p>
+    <div id="dinero_cargado"></div>
+
+    <p>
+        <img src="https://static.platzi.com/media/files/implementacion-del-cajero-automatico/cajero.gif" alt="">
+    </p>
+    
+    <p>
+        <input type="number" id="dinero"/>
+        <input type="button" value="Extraer" id="extraer"/>
+    </p>
+    <div id="resultado"></div>
+    <script src="cajero.js"></script>
+</body>
+</html>

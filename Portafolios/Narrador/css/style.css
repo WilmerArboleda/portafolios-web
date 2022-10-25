@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: dimgray;
+}
+
+section{
+    background-color: burlywood;
+    border: solid 5px;
+    border-radius: 10%;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 10% 10% 5% 35%;
+}
+
+select{
+    width: 90%;
+    height: 7%;
+    border: solid 2px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+textarea{
+    max-width: 90%;
+    max-height: 50%;
+    border: solid 2px;
+}
+
+textarea [placeholder]{
+    text-align: center;
+}
+
+button{
+    width: 30%;
+    height: 10%;
+    margin-bottom: 5% ;
+    border: solid 2px;
+    border-radius: 10%;
+}
+
+h2{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+p{
+    display: none;
+}
+
+footer{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 900px){
+    section{
+        background-color: burlywood;
+        border: solid 5px;
+        border-radius: 10%;
+        width: 90%;
+        height: 80vh;
+        text-align: center;
+        margin: 20px;
+        padding-top: 20px;
+    }
+
+    select{
+        display: none;
+    }
+
+    button{
+        width: 30%;
+        height: 10%;
+        margin-bottom: 5% ;
+        border: solid 2px;
+        border-radius: 20%;
+        color: chocolate;
+        font-size: 20px;
+    }
+
+    footer{
+        text-align: center;
+        color: aliceblue;
+        font-size: 20px;
+    }
+
+    p{
+        display: block;
+        font-family: sans-serif;
+    }
+
+    textarea{
+        height: 60%;
+        border-radius: 2%;
+
+    }
+
+}

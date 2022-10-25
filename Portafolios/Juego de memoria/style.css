@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,147,0.9668242296918768) 100%);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+}
+
+main{
+    width: 730px;
+    margin: 70px auto 50px;
+    display: flex;
+    align-items: center;
+}
+
+.seccion1{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.seccion2{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 400px;
+    padding: 0 20px;
+}
+
+.estadisticas{
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+
+.reiniciar{
+    width: 150px;
+    height: 50px;
+    color: black;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 25px;
+    margin-top: 9px;
+}
+
+footer{
+    text-align: center;
+}
+
+@media screen and (max-width: 640px){
+   
+    main{
+        max-width: 100%;
+        min-height: 100%;
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .seccion2{
+        width: 100%;
+        height: auto;
+        margin-bottom: 1px;
+    }
+
+    .seccion1{
+        width: 100%;
+        margin-top: 0;  
+    }
+
+    table{
+       width: 100%;
+    }
+    
+    table button{
+        width: 85px;
+        height: 85px;
+    }
+
+    .estadisticas{
+        height: auto;
+    }
+
+    footer{
+        padding-bottom: 1px;
+        margin-bottom: 1px;
+    }
+
+    
+}

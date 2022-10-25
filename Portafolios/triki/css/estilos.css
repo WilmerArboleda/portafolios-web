@@ -1,0 +1,145 @@
+body{
+    background-color: #C562E6;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 50px;
+}
+
+#principal{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+    
+}
+
+#comandos{
+    background-color: azure;
+    border: 1px solid lightgray;
+    border-radius: 5%;
+    display: inline-block;
+    min-height: 300px;
+    vertical-align: top;
+    width: 25%;
+    padding-top: 10px;
+}
+
+#comandos input{
+    margin-top: 30px;
+}
+
+#tablero{
+    background-color: azure;
+    border: 1px solid lightblue;
+    border-radius: 5%;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    margin-top: auto;
+   
+}
+
+#tablero input{
+    font-size: 3em;
+    height: 80px;
+    margin: 10px;
+    width: 80px;
+}
+
+#iniciar{
+    font-size: 0.8em;
+    margin: 2em;
+    padding: 07;
+}
+
+#jugador1{
+    font-size: 1em;
+    margin: 0.2em;
+    padding: 0.1em;
+}
+
+#jugador2{
+    font-size: 1em;
+    margin: 0.2em;
+    padding: 0.1em;
+}
+
+#turnojugador{
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.botonInicial{
+    color: lightcyan;
+    background-color:lightcyan
+
+}
+
+.botonJugador1{
+    color: white;
+    background-color: #d77;
+
+}
+
+.botonJugador2{
+    color: white;
+    background-color: #7d7;
+
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 800px){
+    #principal{
+        width: 90%;
+        height: 90%;
+        margin-top: 10px;
+    }
+
+    #comandos{
+        width: 100%;
+        min-height: 100px;
+
+    }
+    #tablero{
+        width: 100%;
+        height: 70%;
+    }
+    
+}
+
+@media screen and (max-width: 520px){
+    #principal{
+        width: 95%;
+        height: 95%;
+        margin-top: 10px;
+    }
+    #comandos{
+        width: 100%;
+        height: 30%;
+        min-height: 70px;
+    }
+
+    #tablero{
+        width: 100%;
+        height: 70%;
+    }
+
+    h1{
+        margin-top: 5px;
+        font-size: 30px;
+    }
+    
+}
