@@ -6,6 +6,18 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Foto de perfil */
+
+.wilmer{
+		border: solid 5px gray;
+		border-radius: 20%;
+		max-width: 160px;
+		align-items: center;
+		align-content: center;
+		margin: 0 auto;
+		
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
