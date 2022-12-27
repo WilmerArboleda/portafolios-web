@@ -18,6 +18,25 @@
 		
 }
 
+.gracias-seccion{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.gracias-div{
+	text-align: center;
+}
+
+.button1{
+	text-decoration: none !important;
+	background-color: #b74e91;
+}
+
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
