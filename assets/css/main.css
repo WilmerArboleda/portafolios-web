@@ -35,6 +35,32 @@
 	background-color: #b74e91;
 }
 
+/* Politicas de privacidad */
+
+.politicasDiv{
+	width: 80%;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+.politicasDiv h3{
+	color: black;
+	padding: 15px;
+	font-size: medium;
+}
+
+.politicasDiv h2{
+	color: black;
+	padding: 15px;
+}
+
+.politicash1{
+	color: black;
+	padding: 15px;
+}
+
+
+
 
 
 html, body, div, span, applet, object,
