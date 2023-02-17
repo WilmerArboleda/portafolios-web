@@ -18,6 +18,28 @@
 		
 }
 
+/* Video y Curriculum */
+.container-video{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.containerVideo{
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.ifrem{
+	width: 100%;
+}
+
+.presentacion{
+	text-align: center;
+}
+
 .gracias-seccion{
 	min-height: 100vh;
 	display: flex;
@@ -3493,6 +3515,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
+			.containerVideo{
+				width: 100%;
+			}
 
 			#header {
 				display: block;
