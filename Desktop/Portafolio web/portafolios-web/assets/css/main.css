@@ -9,6 +9,27 @@
 /* Para editar colores de la web lineas. 3613, 3855, 3327, estas no 280, 180 */
 /* Foto de perfil */
 
+/* Efecto maquina de escribir */
+
+  .escribir {
+    
+    /* Oculta el texto por defecto */
+    overflow: hidden;
+    white-space: nowrap;
+    /* Animación */
+    animation: escribir 5s linear infinite;
+  }
+  
+  @keyframes escribir {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+
 .wilmer{
 		border: solid 5px gray;
 		border-radius: 20%;
